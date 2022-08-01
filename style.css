@@ -167,7 +167,7 @@ body{
     margin-left: 10px;
     border: none;
     border-radius: 2px;
-    background: var(--Very-Dark-Blue);
+    background: var(--Bright-Blue);
     box-shadow: 1px 2px 7px var(--Desaturated-Blue);
     color: #fff;
     font-family: var(--Open-Sans);
@@ -214,8 +214,6 @@ body{
         font-weight: 600;
         color: var(--Very-Dark-Blue);
         margin-bottom: 20px;
-        /* margin-left: 5px;
-        margin-right: 5px; */
         text-align: center;
     }
 
