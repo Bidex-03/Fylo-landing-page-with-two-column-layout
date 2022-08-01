@@ -129,6 +129,10 @@ body{
     display: none;
 }
 
+.tabBr{
+    display: none;
+}
+
 .content p{
     font-size: 1.1rem;
     font-family: var(--Open-Sans);
@@ -203,14 +207,14 @@ body{
 
     }
 
-    br{
+    /* br{
         display: none;
-    }
+    } */
 
     .mobileBr{
         display: block;
     }
-
+    
     .content p{
         display: block;
         font-size: 15px;
@@ -271,13 +275,21 @@ body{
 
     }
 
+    br{
+        display: none;
+    }
+
     .mobileBr{
+        display: none;
+    }
+
+    .tabBr{
         display: block;
     }
 
     .content p{
         display: block;
-        font-size: 20px;
+        font-size: 15px;
         font-family: var(--Open-Sans);
         font-weight: 600;
         color: var(--Very-Dark-Blue);
@@ -291,12 +303,12 @@ body{
 
     #login input{
         width: 100%;
-        max-width: 19rem;
+        max-width: 23rem;
     }
 
     #login button{
         width: 100%;
-        max-width: 19rem;
+        max-width: 23rem;
         margin-left: 0;
     }
 
