@@ -203,6 +203,10 @@ body{
 
     }
 
+    br{
+        display: none;
+    }
+
     .mobileBr{
         display: block;
     }
@@ -246,7 +250,7 @@ body{
 
 /* 425px@media query*/
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
     #first{
         display: flex;
         flex-direction: column;
@@ -258,7 +262,7 @@ body{
     }
 
     .content h1{
-        font-size: 25px;
+        font-size: 30px;
         font-family: var(--Raleway);
         font-weight: 700;
         color: var(--Very-Dark-Blue);
@@ -273,7 +277,7 @@ body{
 
     .content p{
         display: block;
-        font-size: 15px;
+        font-size: 20px;
         font-family: var(--Open-Sans);
         font-weight: 600;
         color: var(--Very-Dark-Blue);
