@@ -203,10 +203,6 @@ body{
 
     }
 
-    br{
-        display: none;
-    }
-
     .mobileBr{
         display: block;
     }
@@ -250,7 +246,7 @@ body{
 
 /* 425px@media query*/
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 375px) {
     #first{
         display: flex;
         flex-direction: column;
@@ -262,7 +258,7 @@ body{
     }
 
     .content h1{
-        font-size: 30px;
+        font-size: 25px;
         font-family: var(--Raleway);
         font-weight: 700;
         color: var(--Very-Dark-Blue);
@@ -271,17 +267,13 @@ body{
 
     }
 
-    br{
-        display: none;
-    }
-
     .mobileBr{
         display: block;
     }
 
     .content p{
         display: block;
-        font-size: 18px;
+        font-size: 15px;
         font-family: var(--Open-Sans);
         font-weight: 600;
         color: var(--Very-Dark-Blue);
@@ -290,17 +282,17 @@ body{
     }
 
     #login{
-        padding: 0 20px;
+        padding: 0 25px;
     }
 
     #login input{
         width: 100%;
-        max-width: 23rem;
+        max-width: 19rem;
     }
 
     #login button{
         width: 100%;
-        max-width: 23rem;
+        max-width: 19rem;
         margin-left: 0;
     }
 
@@ -311,7 +303,7 @@ body{
 
     .firstImg img{
         order: 1;
-        height: 17rem;
+        height: 15rem;
         width: auto;
     }
 }
