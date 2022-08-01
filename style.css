@@ -167,7 +167,7 @@ body{
     margin-left: 10px;
     border: none;
     border-radius: 2px;
-    background: var(--Desaturated-Blue);
+    background: var(--Very-Dark-Blue);
     box-shadow: 1px 2px 7px var(--Desaturated-Blue);
     color: #fff;
     font-family: var(--Open-Sans);
@@ -214,24 +214,23 @@ body{
         font-weight: 600;
         color: var(--Very-Dark-Blue);
         margin-bottom: 20px;
+        /* margin-left: 5px;
+        margin-right: 5px; */
         text-align: center;
     }
 
     #login{
-        /* display: flex;
-        flex-direction: column;
-        width: 100%; */
-        /* max-width: 20rem; */
+        padding: 0 25px;
     }
 
     #login input{
         width: 100%;
-        max-width: 21rem;
+        max-width: 19rem;
     }
 
     #login button{
         width: 100%;
-        max-width: 21rem;
+        max-width: 19rem;
         margin-left: 0;
     }
 
