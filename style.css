@@ -29,7 +29,6 @@ a{
 /* No comment */
 
 body{
-    /* background: var(--Desaturated-Blue); */
     background: var(--Light-Grayish-Blue);
     padding: 3rem;
 }
@@ -75,7 +74,6 @@ body{
 
     #navbar{
         margin: 3rem .5rem;
-        width: 2px;
     }
 
     .fyloImg{
@@ -85,8 +83,6 @@ body{
 
     #navbar ul li{
         margin-left: 1rem;
-        /* margin-left: 5px; */
-        /* font-size: 10px; */
     }
 }
 
@@ -144,7 +140,6 @@ body{
 #login{
     width: 100%;
     max-width: 33rem;
-    /* background: var(--Bright-Blue); */
 }
 
 #login input{
@@ -172,7 +167,7 @@ body{
     margin-left: 10px;
     border: none;
     border-radius: 2px;
-    background: var(--Very-Dark-Blue);
+    background: var(--Desaturated-Blue);
     box-shadow: 1px 2px 7px var(--Desaturated-Blue);
     color: #fff;
     font-family: var(--Open-Sans);
@@ -188,13 +183,9 @@ body{
 /* first@media query */
 
 @media screen and (max-width: 375px) {
-    body{
-        background: var(--Light-Gray);
-    }
     #first{
         display: flex;
         flex-direction: column;
-        width: 10rem;
     }
 
 
@@ -203,7 +194,7 @@ body{
     }
 
     .content h1{
-        font-size: 20px;
+        font-size: 25px;
         font-family: var(--Raleway);
         font-weight: 700;
         color: var(--Very-Dark-Blue);
@@ -218,7 +209,7 @@ body{
 
     .content p{
         display: block;
-        font-size: 10px;
+        font-size: 15px;
         font-family: var(--Open-Sans);
         font-weight: 600;
         color: var(--Very-Dark-Blue);
@@ -227,14 +218,31 @@ body{
     }
 
     #login{
+        /* display: flex;
+        flex-direction: column;
+        width: 100%; */
+        /* max-width: 20rem; */
+    }
+
+    #login input{
         width: 100%;
-        max-width: 13rem;
+        max-width: 21rem;
+    }
+
+    #login button{
+        width: 100%;
+        max-width: 21rem;
+        margin-left: 0;
+    }
+
+    .firstImg{
+        margin: auto;
     }
 
 
     .firstImg img{
         order: 1;
-        height: 10rem;
+        height: 15rem;
         width: auto;
     }
 }
