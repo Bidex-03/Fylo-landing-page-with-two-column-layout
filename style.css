@@ -15,6 +15,7 @@
     --Moderate-Cyan: hsl(170, 45%, 43%);
     --Light-Grayish-Blue: hsl(240, 75%, 98%);
     --Light-Gray: hsl(0, 0%, 75%);
+    --light: hsl(0, 0%, 97%);
     --black: hsl(0, 0%, 0%);
     --Raleway: 'Raleway', sans-serif;
     --Open-Sans: 'Open Sans', sans-serif;
@@ -25,16 +26,31 @@ a{
     color: var(--Light-Grayish-Blue);
 }
 
+h1{
+    font-size: 2.5rem;
+    font-family: var(--Raleway);
+    font-weight: 700;
+    color: var(--Very-Dark-Blue);
+    margin-bottom: 20px;
+}
 
-/* No comment */
-
-body{
-    background: var(--Light-Grayish-Blue);
-    padding: 3rem;
+.paraph{
+    font-size: 1.1rem;
+    font-family: var(--Open-Sans);
+    font-weight: 600;
+    color: var(--Very-Dark-Blue);
+    margin-bottom: 20px;
+    line-height: 1.5rem;
 }
 
 
+
+
 /* Main component */
+
+header , #first{
+    padding: 3rem;
+}
 
 #navbar{
     display: flex;
@@ -117,14 +133,6 @@ body{
     margin-top: 4rem;
 }
 
-.content h1{
-    font-size: 2.5rem;
-    font-family: var(--Raleway);
-    font-weight: 700;
-    color: var(--Very-Dark-Blue);
-    margin-bottom: 20px;
-}
-
 .mobileBr{
     display: none;
 }
@@ -152,7 +160,7 @@ body{
     padding: 10px;
     padding-left: 20px;
     border: 1px solid var(--Very-Dark-Blue);
-    background: var(--Light-Grayish-Blue);
+    /* background: var(--Light-Grayish-Blue); */
     border-radius: 2px;
     color: var(--black);
     font-family: var(--Open-Sans);
@@ -207,17 +215,13 @@ body{
 
     }
 
-    /* br{
-        display: none;
-    } */
-
     .mobileBr{
         display: block;
     }
-    
+
     .content p{
         display: block;
-        font-size: 15px;
+        font-size: 18px;
         font-family: var(--Open-Sans);
         font-weight: 600;
         color: var(--Very-Dark-Blue);
@@ -322,4 +326,80 @@ body{
         height: 15rem;
         width: auto;
     }
+}
+
+
+
+
+/* Second section main code */
+
+#second{
+    margin-top: 20px;
+    /* background: var(--Light-Grayish-Blue); */
+}
+
+.mobileBg{
+    display: none;
+}
+
+.secContent{
+    background: var(--Light-Grayish-Blue);
+    margin-top: -9px;
+    padding: 3rem;
+}
+
+.fyloLink{
+    width: 100%;
+    max-width: 9.5rem;
+    /* background: var(--Bright-Blue); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--Moderate-Cyan);
+    font-family: var(--Open-Sans);
+    font-size: .9rem;
+    border-bottom: 1px solid var(--Moderate-Cyan);
+}
+
+.fyloLink p , .fyloLink img{
+    padding-bottom: 5px;
+}
+
+#testimonial{
+    background: white;
+    width: 100%;
+    max-width: 25rem;
+    padding: 2rem;
+    margin-top: 3rem;
+    border-radius: 8px;
+    box-shadow: 1px 2px 4px var(--Desaturated-Blue);
+}
+
+.quote{
+    font-size: .9rem;
+}
+
+.testImg{
+    display: flex;
+}
+
+.testImg img{
+    height: 40px;
+    width: auto;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.ceo{
+    color: var(--Very-Dark-Blue);
+    font-size: .9rem;
+    font-family: var(--Open-Sans);
+    font-weight: 700;
+}
+
+.huddle{
+    color: var(--Very-Dark-Blue);
+    font-size: .8rem;
+    font-family: var(--Open-Sans);
+    font-weight: 500;
 }
