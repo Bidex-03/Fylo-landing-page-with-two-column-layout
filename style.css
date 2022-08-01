@@ -243,3 +243,67 @@ body{
         width: auto;
     }
 }
+
+/* 425px@media query*/
+
+@media screen and (max-width: 375px) {
+    #first{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .content{
+        order: 2;
+    }
+
+    .content h1{
+        font-size: 25px;
+        font-family: var(--Raleway);
+        font-weight: 700;
+        color: var(--Very-Dark-Blue);
+        margin-bottom: 20px;
+        text-align: center;
+
+    }
+
+    .mobileBr{
+        display: block;
+    }
+
+    .content p{
+        display: block;
+        font-size: 15px;
+        font-family: var(--Open-Sans);
+        font-weight: 600;
+        color: var(--Very-Dark-Blue);
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    #login{
+        padding: 0 25px;
+    }
+
+    #login input{
+        width: 100%;
+        max-width: 19rem;
+    }
+
+    #login button{
+        width: 100%;
+        max-width: 19rem;
+        margin-left: 0;
+    }
+
+    .firstImg{
+        margin: auto;
+    }
+
+
+    .firstImg img{
+        order: 1;
+        height: 13rem;
+        width: auto;
+    }
+}
