@@ -89,7 +89,9 @@ header , #first{
     }
 
     #navbar{
-        margin: 3rem .5rem;
+        margin: 0 .5rem;
+        background: var(--Very-Dark-Blue);
+        width: 18rem;
     }
 
     .fyloImg{
