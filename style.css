@@ -90,7 +90,7 @@ header , #first{
 
     #navbar{
         margin: 0 .5rem;
-        background: var(--Very-Dark-Blue);
+        /* background: var(--Very-Dark-Blue); */
         width: 18rem;
     }
 
