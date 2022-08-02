@@ -344,8 +344,14 @@ header , #first{
 
 .secContent{
     background: var(--Light-Grayish-Blue);
+    /* background: var(--Bright-Blue); */
     margin-top: -9px;
     padding: 3rem;
+}
+
+.contImg{
+    display: flex;
+    justify-content: space-between;
 }
 
 .fyloLink{
@@ -402,4 +408,71 @@ header , #first{
     font-size: .8rem;
     font-family: var(--Open-Sans);
     font-weight: 500;
+}
+.secImg img{
+    height: 20rem;
+    width: auto;
+}
+
+.flexImg img{
+    height: 20rem;
+    width: auto;
+    margin-top: 50px;
+}
+
+/* 375px@media query */
+
+@media screen and (max-width: 375px) {
+    .desktopBg{
+        display: none;
+    }
+
+    .mobileBg{
+        display: block;
+        height: 3.3rem;
+    }
+
+    .secContent{
+        width: 100%;
+        max-width: 23rem;
+    }
+
+    .contImg{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .flexImg img{
+        order: 1;
+        height: 15rem;
+        width: auto;
+    }
+
+    .cont{
+        order: 2;
+    }
+
+    .cont h1{
+        font-size: 10px;
+        font-family: var(--Raleway);
+        font-weight: 700;
+        color: var(--Very-Dark-Blue);
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .cont p{
+        font-size: 10px;
+        font-family: var(--Open-Sans);
+        font-weight: 600;
+        color: var(--Very-Dark-Blue);
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    #testimonial{
+        width: 100%;
+        max-width: 15rem;
+    }
 }
