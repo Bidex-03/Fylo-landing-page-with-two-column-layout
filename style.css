@@ -344,9 +344,14 @@ header , #first{
     display: none;
 }
 
+.desktopBg{
+    height: 6.67rem;
+    width: auto;
+}
+
 .secContent{
-    /* background: var(--Light-Grayish-Blue); */
-    background: var(--Bright-Blue);
+    background: var(--Light-Grayish-Blue);
+    /* background: var(--Bright-Blue); */
     margin-top: -9px;
     padding: 3rem;
 }
@@ -436,7 +441,8 @@ header , #first{
 
     .secContent{
         width: 100%;
-        max-width: 23rem;
+        max-width: 23.3rem;
+        /* background-color: var(--Desaturated-Blue); */
     }
 
     .contImg{
