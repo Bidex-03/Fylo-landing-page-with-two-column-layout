@@ -85,7 +85,7 @@ header , #first{
 
 @media screen and (max-width: 375px) {
     body{
-        padding: 5px;
+        padding: 0px;
     }
 
     #navbar{
@@ -106,7 +106,7 @@ header , #first{
 
 @media screen and (max-width: 425px) {
     body{
-        padding: 5px;
+        /* padding: 5px; */
     }
 
     #navbar{
@@ -343,8 +343,8 @@ header , #first{
 }
 
 .secContent{
-    background: var(--Light-Grayish-Blue);
-    /* background: var(--Bright-Blue); */
+    /* background: var(--Light-Grayish-Blue); */
+    background: var(--Bright-Blue);
     margin-top: -9px;
     padding: 3rem;
 }
