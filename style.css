@@ -107,9 +107,9 @@ header , #first{
 /* 425px@media query */
 
 @media screen and (max-width: 425px) {
-    body{
-        /* padding: 5px; */
-    }
+    /* body{
+        padding: 5px;
+    } */
 
     #navbar{
         margin: 3rem .5rem;
