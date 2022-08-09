@@ -50,7 +50,6 @@ h1{
 /* Main component */
 
 header , #first{
-    /* padding: 3rem; */
     padding: 2rem;
 }
 
@@ -92,7 +91,6 @@ header , #first{
 
     #navbar{
         margin: 0 .5rem;
-        /* background: var(--Very-Dark-Blue); */
         width: 18rem;
     }
 
@@ -109,10 +107,6 @@ header , #first{
 /* 425px@media query */
 
 @media screen and (max-width: 425px) {
-    /* body{
-        padding: 5px;
-    } */
-
     #navbar{
         margin: 3rem .5rem;
     }
@@ -253,7 +247,6 @@ header , #first{
         order: 1;
         height: 15rem;
         width: 5rem;
-        /* background: var(--Light-Grayish-Blue); */
     }
 }
 
@@ -362,7 +355,6 @@ header , #first{
 .fyloLink{
     width: 100%;
     max-width: 9.5rem;
-    /* background: var(--Bright-Blue); */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -452,7 +444,6 @@ header , #first{
     .flexImg img{
         order: 1;
         height: 15rem;
-        /* width: 19rem; */
         width: auto;
     }
 
@@ -567,9 +558,9 @@ header , #first{
     padding: 8px;
     margin-top: 10px;
     border: none;
-    border-radius: 2px;
+    border-radius: 3px;
     background: var(--Bright-Blue);
-    box-shadow: 1px 2px 7px var(--Desaturated-Blue);
+    box-shadow: 1px 2px 9px var(--Very-Dark-Blue);
     color: #fff;
     font-family: var(--Open-Sans);
     font-size: 15px;
@@ -622,7 +613,6 @@ footer{
 .email, .phone{
     width: 100%;
     max-width: 10rem;
-    /* margin-top: 10px; */
     display: flex;
     align-items: center;
     font-family: var(--Open-Sans);
@@ -685,6 +675,6 @@ footer{
     }
 
     .handles{
-        margin-left: 65%;
+        margin-left: 60%;
     }
 }
