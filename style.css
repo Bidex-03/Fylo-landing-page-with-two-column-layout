@@ -254,7 +254,7 @@ header , #first{
     .firstImg img{
         order: 1;
         height: 15rem;
-        width: auto;
+        width: 19rem;
     }
 }
 
