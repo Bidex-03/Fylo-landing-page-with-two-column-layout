@@ -164,14 +164,10 @@ header , #first{
     padding: 10px;
     padding-left: 20px;
     border: 1px solid var(--Very-Dark-Blue);
-    /* background: var(--Light-Grayish-Blue); */
     border-radius: 2px;
     color: var(--black);
     font-family: var(--Open-Sans);
     font-size: .9rem;
-}
-
-#login input:focus{
     outline: none;
 }
 
@@ -340,8 +336,6 @@ header , #first{
 
 #second{
     margin-top: 20px;
-    margin-bottom: 30px;
-    /* background: var(--Light-Grayish-Blue); */
 }
 
 .mobileBg{
@@ -357,6 +351,7 @@ header , #first{
     background: var(--grey);
     margin-top: -9px;
     padding: 3rem;
+    padding-bottom: 5rem;
 }
 
 .contImg{
@@ -515,4 +510,68 @@ header , #first{
     .huddle{
         font-size: .6rem;
     }
+}
+
+
+
+/* Third section */
+
+#third{
+    display: flex;
+    justify-content: space-between;
+    background: var(--Desaturated-Blue);
+    padding: 50px 3rem;
+    font-family: var(--Raleway);
+    color: var(--light);
+}
+
+.thCont{
+    width: auto;
+    max-width: 27rem;
+}
+
+.thCont h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.thCont p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4rem;
+}
+
+.thForm{
+    width: 100%;
+    max-width: 23rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.thForm input{
+    width: 100%;
+    padding: 8px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 3px;
+    color: var(--black);
+    font-family: var(--Open-Sans);
+    font-size: .9rem;
+    outline: none;
+}
+
+.thForm button{
+    width: 100%;
+    max-width: 10rem;
+    padding: 8px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 2px;
+    background: var(--Bright-Blue);
+    box-shadow: 1px 2px 7px var(--Desaturated-Blue);
+    color: #fff;
+    font-family: var(--Open-Sans);
+    font-size: 15px;
+    cursor: pointer;
 }
