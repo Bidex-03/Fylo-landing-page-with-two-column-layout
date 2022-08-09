@@ -505,4 +505,16 @@ header , #first{
     #testimonial .quote br{
         display: none;
     }
+
+    .testImg img{
+        height: 30px;
+    }
+
+    .ceo{
+        font-size: .8rem;
+    }
+
+    .huddle{
+        font-size: .6rem;
+    }
 }
