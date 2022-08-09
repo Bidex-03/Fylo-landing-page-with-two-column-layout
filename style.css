@@ -446,7 +446,8 @@ header , #first{
         width: 100%;
         max-width: 23.3rem;
         /* max-width: 22.6rem; */
-        background-color: var(--Desaturated-Blue);
+        /* background-color: var(--Desaturated-Blue); */
+        padding: 20px;
     }
 
     .contImg{
@@ -458,7 +459,8 @@ header , #first{
     .flexImg img{
         order: 1;
         height: 15rem;
-        width: 19rem;
+        /* width: 19rem; */
+        width: auto;
     }
 
     .cont{
@@ -466,25 +468,41 @@ header , #first{
     }
 
     .cont h1{
-        font-size: 10px;
+        font-size: 1em;
         font-family: var(--Raleway);
         font-weight: 700;
         color: var(--Very-Dark-Blue);
+        margin-top: 5rem;
         margin-bottom: 20px;
         text-align: center;
     }
 
-    .cont p{
-        font-size: 10px;
+    .cont .paraph{
+        font-size: 15px;
         font-family: var(--Open-Sans);
         font-weight: 600;
-        color: var(--Very-Dark-Blue);
+        color: var(--Desaturated-Blue);
         margin-bottom: 20px;
-        text-align: center;
+    }
+
+    .fyloLink{
+        margin-left: 90px;
     }
 
     #testimonial{
         width: 100%;
-        max-width: 15rem;
+        max-width: 18rem;
+        padding: 1.5rem;
+        margin-left: 1.8rem;
+    }
+
+    #testimonial .quote{
+        font-size: 11px;
+        color: var(--Very-Dark-Blue);
+        line-height: normal;
+    }
+
+    #testimonial .quote br{
+        display: none;
     }
 }
