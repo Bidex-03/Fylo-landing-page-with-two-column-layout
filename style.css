@@ -602,3 +602,82 @@ header , #first{
         max-width: 50rem;
     }
 }
+
+
+/* Footer */
+
+footer{
+    background: var(--Very-Dark-Blue);
+    padding: 50px 3rem;
+    color: white;
+}
+
+#foot{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15rem;
+    margin-top: 5px;
+}
+
+.email, .phone{
+    width: 100%;
+    max-width: 10rem;
+    /* margin-top: 10px; */
+    display: flex;
+    align-items: center;
+    font-family: var(--Open-Sans);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.email img, .phone img{
+    height: 13px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.list ul{
+    list-style: none;
+    font-family: var(--Open-Sans);
+    font-size: 13px;
+}
+
+.list li{
+    margin-bottom: 10px;
+}
+
+.handles{
+    margin-top: 2.5rem;
+}
+
+.handles i{
+    margin-right: 10px;
+}
+
+
+
+/* footer@media query */
+
+@media screen and (max-width: 375px) {
+    footer{
+        padding: 50px 1rem;
+    }
+
+    #foot{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+    }
+
+    .emPh{
+        max-width: 45rem;
+        /* background: var(--Light-Gray); */
+    }
+
+    .email, .phone{
+        width: 100%;
+        max-width: 25rem;
+        margin-bottom: 10px;
+    }
+}
