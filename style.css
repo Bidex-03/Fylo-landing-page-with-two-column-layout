@@ -436,13 +436,14 @@ header , #first{
 
     .mobileBg{
         display: block;
-        height: 3.3rem;
+        height: 3.2rem;
     }
 
     .secContent{
         width: 100%;
-        max-width: 23.3rem;
-        /* background-color: var(--Desaturated-Blue); */
+        /* max-width: 23.3rem; */
+        max-width: 22.6rem;
+        background-color: var(--Desaturated-Blue);
     }
 
     .contImg{
