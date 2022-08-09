@@ -16,6 +16,7 @@
     --Light-Grayish-Blue: hsl(240, 75%, 98%);
     --Light-Gray: hsl(0, 0%, 75%);
     --light: hsl(0, 0%, 97%);
+    --grey: #f9f8fe;
     --black: hsl(0, 0%, 0%);
     --Raleway: 'Raleway', sans-serif;
     --Open-Sans: 'Open Sans', sans-serif;
@@ -339,6 +340,7 @@ header , #first{
 
 #second{
     margin-top: 20px;
+    margin-bottom: 30px;
     /* background: var(--Light-Grayish-Blue); */
 }
 
@@ -352,8 +354,7 @@ header , #first{
 }
 
 .secContent{
-    background: var(--Light-Grayish-Blue);
-    /* background: var(--Bright-Blue); */
+    background: var(--grey);
     margin-top: -9px;
     padding: 3rem;
 }
@@ -438,15 +439,12 @@ header , #first{
 
     .mobileBg{
         display: block;
-        /* height: 3.3rem; */
-        height: 3.2rem;
+        height: 3.3rem;
     }
 
     .secContent{
         width: 100%;
         max-width: 23.3rem;
-        /* max-width: 22.6rem; */
-        /* background-color: var(--Desaturated-Blue); */
         padding: 20px;
     }
 
