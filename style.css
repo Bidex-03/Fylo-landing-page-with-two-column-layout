@@ -666,18 +666,25 @@ footer{
     #foot{
         display: flex;
         flex-direction: column;
-        /* justify-content: center;
-        align-items: center; */
+        width: 100%;
+        max-width: 15rem;
     }
 
     .emPh{
         max-width: 45rem;
-        /* background: var(--Light-Gray); */
     }
 
     .email, .phone{
         width: 100%;
         max-width: 25rem;
         margin-bottom: 10px;
+    }
+
+    .list{
+        margin-top: 20px;
+    }
+
+    .handles{
+        margin-left: 65%;
     }
 }
