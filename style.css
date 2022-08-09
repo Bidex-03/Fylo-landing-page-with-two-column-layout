@@ -575,3 +575,30 @@ header , #first{
     font-size: 15px;
     cursor: pointer;
 }
+
+/* Third@media query */
+
+@media screen and (max-width: 375px) {
+    #third{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .thCont h2{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .thCont p{
+        text-align: center;
+    }
+
+    .thForm{
+        margin-top: 20px;
+    }
+
+    .thForm button{
+        width: 100%;
+        max-width: 50rem;
+    }
+}
