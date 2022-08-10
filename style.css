@@ -503,6 +503,48 @@ header , #first{
     }
 }
 
+/* 425px@media query */
+
+@media screen and (max-width: 425px) {
+    .desktopBg{
+        display: none;
+    }
+
+    .mobileBg{
+        display: block;
+        /* height: 3.75rem; */
+    }
+
+    .contImg{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexImg img{
+        order: 1;
+        height: 15rem;
+        width: auto;
+    }
+
+    .cont{
+        order: 2;
+    }
+
+    .cont h1{
+        font-size: 1.2em;
+        font-family: var(--Raleway);
+        font-weight: 700;
+        color: var(--Very-Dark-Blue);
+        margin-top: 5rem;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .fyloLink{
+        margin-left: 90px;
+    }
+}
+
 
 
 /* Third section */
@@ -570,6 +612,33 @@ header , #first{
 /* Third@media query */
 
 @media screen and (max-width: 375px) {
+    #third{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .thCont h2{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .thCont p{
+        text-align: center;
+    }
+
+    .thForm{
+        margin-top: 20px;
+    }
+
+    .thForm button{
+        width: 100%;
+        max-width: 50rem;
+    }
+}
+
+/* 425px@media query */
+
+@media screen and (max-width: 425px) {
     #third{
         display: flex;
         flex-direction: column;
@@ -676,5 +745,40 @@ footer{
 
     .handles{
         margin-left: 60%;
+    }
+}
+
+/* 425px@media query */
+
+@media screen and (max-width: 425px){
+    footer{
+        padding: 50px 1rem;
+    }
+
+    #foot{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 15rem;
+    }
+
+    .emPh{
+        max-width: 45rem;
+    }
+
+    .email, .phone{
+        width: 100%;
+        max-width: 25rem;
+        margin-bottom: 10px;
+    }
+
+    .list{
+        margin-top: 20px;
+    }
+
+    .handles{
+        width: 100%;
+        max-width: 7rem;
+        margin-left: 70%;
     }
 }
